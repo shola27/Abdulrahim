@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/profile.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h2>PROFILE</h2>
+            <p class="msg"> </p>
+
+        </div>
+    <button class="logout">logout</button>
+
+    </header>
+
+    <div class="content">
+
+    </div>
+
+    <div class="photo_actions">
+
+        <input type="file" name="profile_pic" class="choose_photo">
+        <button class="upload_photo">upload photo</button>
+    </div>
+
+    <div class="postDiv">
+        <textarea name="" id="" cols="30" rows="10" placeholder="write your post here" class="post"></textarea>
+        <button class="postBtn">Make Post</button>
+    </div>
+
+    <div class="profile">
+        <button class="btnedit">edit profile</button>
+        <form class="profile_form hide">
+            <p class="msg"> </p>
+            <div>
+                <label for="firstname">First Name</label>
+                <input required class="firstname" type="text" placeholder="firstname">
+            </div>
+    
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="lastname" class="lastname">
+            </div>
+    
+            <div>
+                <label for="email">Email</label>
+                <input type="text" placeholder="email" class="email">
+            </div>
+    
+            <div>
+                <label for="address">Address</label>
+                <input type="text" placeholder="address" class="address">
+            </div>
+    
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" placeholder="phone" class="phone">
+            </div>
+                           
+            <div>
+    
+                <button type="submit" class="submit_profile">submit profile</button>
+            </div>
+            
+        </form>
+
+       
+    </div>
+
+
+    <script src="javascripts/myprofile.js"></script>
+</body>
+</html>
